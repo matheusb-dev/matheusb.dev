@@ -1,0 +1,27 @@
+.{
+    margin: 0;
+    display: flex;
+}
+
+header{
+    background-color: rgb(142, 140, 140);
+}
+
+main{
+    
+}
+
+body{
+    background: rgb(88, 88, 88);
+}
+
+/*upload de arquivos no GitHub
+
+    git init //iciar git
+    git add .
+    git commit -m "seu comentario"
+    git push
+
+    git remote add origin git@github.com:usuario/repositoriogithub.git
+    git push origin master
+*/
