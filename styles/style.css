@@ -1,14 +1,5 @@
-.{
-    margin: 0;
-    display: flex;
-}
-
 header{
     background-color: rgb(142, 140, 140);
-}
-
-main{
-    
 }
 
 body{
@@ -24,4 +15,16 @@ body{
 
     git remote add origin git@github.com:usuario/repositoriogithub.git
     git push origin master
+
+    <!-- Link to an external website -->
+    <a href="https://www.example.com">Visit Example.com</a>
+
+    <!-- Link to an email address -->
+    <a href="mailto:someone@example.com">Send an email</a>
+
+    <!-- Link to a phone number -->
+    <a href="tel:+1234567890">Call us</a>
+
+    <!-- Link to a section on the same page --> 
+    <a href="#section-id">Jump to section</a>
 */
