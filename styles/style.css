@@ -1,11 +1,19 @@
+/*Reset css*/
+* {
+    margin: 0px; /*margem*/
+    padding: 0px; /*"Paragrafo"*/
+    border: none; /*sem bordas nenhuma*/
+    box-sizing: border-box; /*pesquisar na net*/
+}
+
 header{
-    background-color: rgb(142, 140, 140);
+    display: flex;
+    justify-content: center;
 }
 
-body{
-    background: rgb(88, 88, 88);
+#my{
+    margin: 0 25px;
 }
-
 /*upload de arquivos no GitHub
 
     git init //iciar git
