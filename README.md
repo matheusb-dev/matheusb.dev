@@ -2,6 +2,12 @@
 
 Nem sei se vai dar certo kkkk, feito na GAMBIARRA.
 
-Linha do tempo do site, 1 Versão:
+----------
 
+Linha do tempo do site:
+
+V1
 <img src="./linha_do_tempo/c01.png">
+
+V2.
+<img src="/linha_do_tempo/c02.png">
