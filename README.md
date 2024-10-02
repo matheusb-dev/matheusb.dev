@@ -14,3 +14,6 @@ V2.
 
 V3.
 <img src="/linha_do_tempo/c03.png">
+
+V4.
+<img src="/linha_do_tempo/c04.png">
