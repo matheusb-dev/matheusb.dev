@@ -8,20 +8,50 @@
 }
 
 header{
-    display: flex; /*Alinha um item na frente do outro*/
-    justify-content: center; /*Alinha no centro da página*/
-    margin: 40px; /*Uma margem de 40pixel para descer a header*/ 
+    display: flex; /* Alinha os itens em uma linha */
+    justify-content: space-between; /* Espaça os itens para os lados */
+    align-items: center; /* Alinha verticalmente os itens */
+    margin: 40px; /* Margem de 40px para o header */
 }
 
 #my{
-    margin: 0 0px; 
+    margin: auto;
     display: flex; 
 }
 
 #redes{
-    margin: 0 0 0 230px;
     display: flex;
+    margin: auto;
 }
+
+@media (max-width: 600px) {
+    #redes {
+        margin: 0 0 0 20px;; /* Diminui em telas menores */
+    }
+}
+
+.logo_git {
+    width: 28px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .logo_git {
+        width: 28px; /* Diminui em telas menores */
+    }
+}
+
+.logo_insta {
+    width: 28px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .logo_insta {
+        width: 28px; /* Diminui em telas menores */
+    }
+}
+
 
 main {
     display: flex; 
