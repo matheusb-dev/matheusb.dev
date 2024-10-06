@@ -5,3 +5,8 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style-type: none;
+    display: inline-block; /* Faz com que os itens fiquem lado a lado */
+    margin-right: 10px; /* Adiciona espaço entre os itens */
+}
