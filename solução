@@ -1,33 +1,36 @@
-@media (min-width: 600px) {
-    body {
-        padding:48px 500px 0
-    }
-
-    .media-links {
-        justify-content: flex-start
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-header{
-    background-color: rgb(105, 105, 105);
+header {
     display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    /*width: 100%;*/
-    align-items: center;
+    justify-content: space-between; /* Distribui os itens no header */
+    align-items: center; /* Centraliza verticalmente */
+    height: 150px;
+    padding: 0 20px; /* Adiciona espaçamento lateral */
 }
 
-.links-header-site li {
-    display: inline; /*Um item na frente do outro*/
-    /*margin: 7px; /*Espaçamento entre os links*/
-    margin-right: 25px;
-    font-size: 1rem;
-    
+#links, #redes {
+    display: flex; /* Garante que os itens dentro dos ul fiquem lado a lado */
+    list-style-type: none; /* Remove os marcadores */
 }
 
-.redes-header-site li{
-    display: inline;
-    margin: 0 16px 0 0; /*Espaçamento entre as imagens*/
-    display: inline-block;  /*Um item na frente do outro sem barra*/
-    margin-right: 20px;
+li {
+    margin: 0 10px; /* Espaçamento entre os links dentro da lista */
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas */
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+        gap: 20px; /* Menor espaçamento entre os grupos */
+    }
+
+    #links, #redes {
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: center; /* Centraliza os itens */
+    }
 }
