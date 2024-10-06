@@ -17,11 +17,13 @@ header{
 #my{
     margin: auto;
     display: flex; 
+    gap: 12px;
 }
 
 #redes{
     display: flex;
     margin: auto;
+    gap: 12px;
 }
 
 @media (max-width: 600px) {
@@ -35,9 +37,18 @@ header{
     height: auto;
 }
 
+
+@media (max-width: 600px) {
+    #my {
+        margin: 0 0 0 0px; /* Diminui em telas menores */
+    }
+}
+
+
+
 @media (max-width: 600px) {
     .logo_git {
-        width: 28px; /* Diminui em telas menores */
+        width: 39px; /* Diminui em telas menores */
     }
 }
 
@@ -48,7 +59,7 @@ header{
 
 @media (max-width: 600px) {
     .logo_insta {
-        width: 28px; /* Diminui em telas menores */
+        width: 39px; /* Diminui em telas menores */
     }
 }
 
@@ -62,6 +73,11 @@ main {
     margin: 0 auto; /* Centraliza o main horizontalmente */
     max-width: 500px; /* Define uma largura máxima para o main */
     padding: 0px; /* Adiciona um espaçamento interno */
+}
+
+@media (max-width: 600px) {
+    h2 {
+        margin: 0 0 0 39px;;
 }
 
 main h2{
