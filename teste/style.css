@@ -77,7 +77,8 @@ main {
 
 @media (max-width: 600px) {
     h2 {
-        margin: 0 0 0 39px;;
+        margin: 0 0 0 39px;
+    }
 }
 
 main h2{
