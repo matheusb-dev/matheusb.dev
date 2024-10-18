@@ -73,3 +73,15 @@ li {
     height: auto;
     margin-top: 20px;
 }*/
+
+
+main{
+    display: flex; /*Um item na frente do outro*/
+    flex-direction: column; /*deixa os itens em colunas, um abaixo do outro*/
+    max-width: 720px; /*Define uma largura maxima*/
+    min-height: 100vh; /*define uma altura minima*/
+    margin: 0 auto;
+    /*line-height: 1.6; /*Altura entre os itens*/
+    /*font-weight: 300;*/
+    /*padding: 0 2rem;*/
+}
