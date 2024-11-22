@@ -1,4 +1,4 @@
-* {
+* { /*Reset eementos*/
     margin: 0;
     padding: 0;
     border: none;
@@ -7,54 +7,60 @@
 
 header {
     display: flex;
-    justify-content: space-between; /* Distribui os itens no header */
-    align-items: center; /* Centraliza verticalmente */
-    height: 150px;
-    padding: 0 20px; /* Adiciona espaçamento lateral */
+    /*justify-content: space-between; /* Distribui os itens no header */
+    /*align-items: center; /* Centraliza verticalmente */
+    height: 150px; /*Altura*/
+    /*padding: 0 20px; /* Adiciona espaçamento lateral */
 }
 
-#links, #redes {
-    display: flex; /* Garante que os itens dentro dos ul fiquem lado a lado */
-    list-style-type: none; /* Remove os marcadores */
+
+/*#links, #redes {
+    display: flex; /* Garante que os itens dentro dos ul fiquem lado a lado 
+    list-style-type: none; Remove os marcadores 
+}*/
+
+li { /*São meus links para as paginas do site*/
+    margin: auto; /*Tira a bolinha do item da lista*/
+    display: flex; /*Tira a bolinha do item da lista junto com o meu margin: auto*/
+    gap: 12px; /*Espaco entre os itens*/
+    /*margin: 0 10px; /* Espaçamento entre os links dentro da lista */ 
 }
 
-li {
-    margin: auto;
-    display: flex; 
-    gap: 12px;
-    /*margin: 0 10px; /* Espaçamento entre os links dentro da lista */
-}
-
+/*Ajuste nos links das paginas*/
 #links{
     margin: auto;
     display: flex;
 }
 
+/**Ajuste nas redes que é o git e o insta*/
 #redes{
     display: flex;
     margin: auto;
 }
 
+/*Arrumando tamanho imagem git*/
 .logo_git{
     width: 28px;
     height: auto;
 }
 
+/*Arrumando tamanho imagem insta*/
 .logo_insta{
     width: 28px;
     height: auto;
 }
 
+/*
 @media (max-width: 600px) {
     header {
-        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas */
-        height: auto; /* Permite que a altura se ajuste ao conteúdo */
-        gap: 20px; /* Menor espaçamento entre os grupos */
+        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas 
+        height: auto; /* Permite que a altura se ajuste ao conteúdo 
+        gap: 20px; /* Menor espaçamento entre os grupos 
     }
 
     #links, #redes {
-        flex-direction: row; /* Mantém os itens lado a lado */
-        justify-content: center; /* Centraliza os itens */
+        flex-direction: row; /* Mantém os itens lado a lado 
+        justify-content: center; /* Centraliza os itens 
         margin-top: 30px
     }
 }
@@ -75,13 +81,13 @@ li {
 }*/
 
 
-main{
-    display: flex; /*Um item na frente do outro*/
-    flex-direction: column; /*deixa os itens em colunas, um abaixo do outro*/
-    max-width: 720px; /*Define uma largura maxima*/
-    min-height: 100vh; /*define uma altura minima*/
+/*main{
+    /*display: flex; Um item na frente do outro
+    flex-direction: column; /*deixa os itens em colunas, um abaixo do outro
+    max-width: 720px; /*Define uma largura maxima
+    min-height: 100vh; /*define uma altura minima
     margin: 0 auto;
     /*line-height: 1.6; /*Altura entre os itens*/
     /*font-weight: 300;*/
-    /*padding: 0 2rem;*/
-}
+    /*padding: 0 2rem;
+}*/
