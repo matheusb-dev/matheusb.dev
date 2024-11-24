@@ -6,11 +6,11 @@
 }
 
 header {
-    display: flex;
-    /*justify-content: space-between; /* Distribui os itens no header */
-    /*align-items: center; /* Centraliza verticalmente */
-    height: 150px; /*Altura*/
-    /*padding: 0 20px; /* Adiciona espaçamento lateral */
+    display: flex; /*Tira a bolinha do item da lista junto com o meu margin: auto*/
+    gap: 1.2rem; /*Espaco entre os itens*/
+    margin: 16px 0px; /* Espaçamento entre os links dentro da lista */
+    /*height: 100px; /*Altura*/
+    /*padding: 10px; /* Adiciona espaçamento em cima */
 }
 
 
@@ -19,75 +19,96 @@ header {
     list-style-type: none; Remove os marcadores 
 }*/
 
-li { /*São meus links para as paginas do site*/
-    margin: auto; /*Tira a bolinha do item da lista*/
-    display: flex; /*Tira a bolinha do item da lista junto com o meu margin: auto*/
-    gap: 12px; /*Espaco entre os itens*/
-    /*margin: 0 10px; /* Espaçamento entre os links dentro da lista */ 
+li{ /*São meus links para as paginas do site*/
+    padding: 16px 0;
+    display: flex;
+    gap: 1.2rem;
+    list-style: none; 
 }
 
 /*Ajuste nos links das paginas*/
 #links{
-    margin: auto;
+    margin: 0;
     display: flex;
+    vertical-align: middle;
 }
 
 /**Ajuste nas redes que é o git e o insta*/
 #redes{
     display: flex;
-    margin: auto;
-}
+    margin: 0 0 0 auto;
+    vertical-align: middle;
+}/*
 
 /*Arrumando tamanho imagem git*/
 .logo_git{
     width: 28px;
-    height: auto;
+   /* height: auto; /*altura automatica */
 }
 
 /*Arrumando tamanho imagem insta*/
 .logo_insta{
-    width: 28px;
-    height: auto;
+    width: 28px; /*Largura */
+    /*height: auto; /*altura automatica */
 }
 
-/*
+.logo_linkedin{
+    width: 28px; /*Largura*/
+    /*height: auto; /*altura automatica*/
+}
+
+/* ajuste para tela menores */
 @media (max-width: 600px) {
     header {
-        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas 
-        height: auto; /* Permite que a altura se ajuste ao conteúdo 
-        gap: 20px; /* Menor espaçamento entre os grupos 
+        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas */
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+        gap: 1.2rem; /*Espaco entre os itens*/
+        margin: 16px 0px; /* Espaçamento entre os links dentro da lista */ 
     }
-
+    
     #links, #redes {
-        flex-direction: row; /* Mantém os itens lado a lado 
-        justify-content: center; /* Centraliza os itens 
-        margin-top: 30px
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: center; /* Centraliza os itens */
+        gap: 1.2rem; /*Espaco entre os itens*/
+        margin: 16px 0px; /* Espaçamento entre os links dentro da lista */ 
     }
 }
 
 
 
-/*@media (max-width: 600px) {
-    .logo_git {
-        width: 28px; /* Diminui em telas menores 
-        margin-top: 20px;
-    }
-}
-
-.logo_insta {
-    width: 28px;
-    height: auto;
-    margin-top: 20px;
-}*/
-
-
-/*main{
-    /*display: flex; Um item na frente do outro
-    flex-direction: column; /*deixa os itens em colunas, um abaixo do outro
-    max-width: 720px; /*Define uma largura maxima
-    min-height: 100vh; /*define uma altura minima
+/*body{
+    display: flex; /* Um item na frente do outro
+    flex-direction: column; /*deixa os itens em colunas, um abaixo do outro */
+    /*max-width: 720px; /*Define uma largura maxima 
+    min-height: 100vh; /*define uma altura minima 
     margin: 0 auto;
-    /*line-height: 1.6; /*Altura entre os itens*/
-    /*font-weight: 300;*/
-    /*padding: 0 2rem;
+    line-height: 1.6; /*Altura entre os itens 
+    padding: 0 2rem;
 }*/
+
+hr {
+    border: 0; /* Remove a borda padrão */
+    height: 1px; /* Define a altura da linha */
+    background-color: #333; /* Define a cor da linha */
+    width: 100%; /* Define a largura da linha (50% da largura da tela) */
+    margin: 20px auto; /* Centraliza a linha na página com margens de 20px acima e abaixo */
+}
+
+body{
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 0 2rem;
+}
+
+footer{
+    position: fixed;  /* Torna o footer fixo */
+    bottom: 0;        /* Alinha o footer ao fundo da página */
+    left: 0;          /* Alinha à esquerda */
+    width: 100%;      /* Faz com que o footer ocupe toda a largura da página */
+    /*background-color: #333; /* Cor de fundo do footer */
+    /*color: white;     /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0;  /* Espaçamento dentro do footer */
+}
+
