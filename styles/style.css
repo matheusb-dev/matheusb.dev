@@ -62,15 +62,17 @@ li{ /*São meus links para as paginas do site*/
     header {
         flex-direction: row; /* Mantém os itens lado a lado em telas pequenas */
         height: auto; /* Permite que a altura se ajuste ao conteúdo */
-        gap: 1.2rem; /*Espaco entre os itens*/
-        margin: 16px 0px; /* Espaçamento entre os links dentro da lista */ 
+        gap: 20px; /* Menor espaçamento entre os grupos */
+        flex-direction: row; /* Mantém os itens lado a lado em telas pequenas 
+        height: auto; /* Permite que a altura se ajuste ao conteúdo 
+        gap: 20px; /* Menor espaçamento entre os grupos */
     }
-    
     #links, #redes {
         flex-direction: row; /* Mantém os itens lado a lado */
         justify-content: center; /* Centraliza os itens */
-        gap: 1.2rem; /*Espaco entre os itens*/
-        margin: 16px 0px; /* Espaçamento entre os links dentro da lista */ 
+        flex-direction: row; /* Mantém os itens lado a lado 
+        justify-content: center; /* Centraliza os itens 
+        margin-top: 30px*/
     }
 }
 
