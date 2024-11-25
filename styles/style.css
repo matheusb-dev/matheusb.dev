@@ -104,13 +104,13 @@ body{
 }
 
 footer{
-    position: fixed;  /* Torna o footer fixo */
+    position: relative;  /* Torna o footer fixo */
     bottom: 0;        /* Alinha o footer ao fundo da página */
     left: 0;          /* Alinha à esquerda */
     width: 100%;      /* Faz com que o footer ocupe toda a largura da página */
     /*background-color: #333; /* Cor de fundo do footer */
     /*color: white;     /* Cor do texto */
     text-align: center; /* Centraliza o texto */
-    padding: 10px 0;  /* Espaçamento dentro do footer */
+    padding-top: 320px;  /* Espaçamento dentro do footer */
 }
 
