@@ -60,6 +60,10 @@ li{ /*São meus links para as paginas do site*/
     /*height: auto; /*altura automatica*/
 }
 
+#splash_toys{
+    width: 250px; /*Largura*/
+}
+
 /* ajuste para tela menores */
 @media (max-width: 600px) {
     header {
@@ -120,4 +124,6 @@ footer{
     text-align: center; /* Centraliza o texto */
     padding-top: 220px;  /* Espaçamento dentro do footer */
 }
+
+
 
