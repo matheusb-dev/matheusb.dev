@@ -1,0 +1,25 @@
+{
+  "name": "matheusb.dev",
+  "version": "1.0.0",
+  "description": "Meu site pessoal e um pouco sobre mim...",
+  "homepage": "https://github.com/matheusb-dev/matheusb.dev#readme",
+  "bugs": {
+    "url": "https://github.com/matheusb-dev/matheusb.dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusb-dev/matheusb.dev.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^16.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
