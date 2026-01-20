@@ -3,8 +3,8 @@ import Link from "next/link";
 function Home() {
   return (
     <header>
-      <Link href="/sobre">
-        <as>Olá</as>
+      <Link href="/">
+        <as>Oláaa</as>
       </Link>
     </header>
   );
