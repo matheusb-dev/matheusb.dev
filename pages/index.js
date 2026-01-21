@@ -8,7 +8,7 @@ function Home() {
           <ul id="links">
             <li>
               <Link href="/">/</Link>
-              <Link href="/sobre">Projects</Link>
+              <Link href="/projects">Projects</Link>
             </li>
           </ul>
 
