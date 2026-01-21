@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  gap: 1.2rem; /*Espaco entre os itens*/
+  margin: 16px 0px; /* Espaçamento entre os links dentro da lista */
+}
+
+li {
+  padding: 16px 0;
+  display: flex;
+  gap: 1.2rem;
+  /*list-style: none;*/
+}
+
+#links {
+  margin: 0;
+  display: flex;
+  vertical-align: middle;
+}
+
+#networks {
+  display: flex;
+  margin: 0 0 0 auto;
+  vertical-align: middle;
+}
